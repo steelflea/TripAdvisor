@@ -27,7 +27,7 @@
             e.preventDefault();
         
             myname = document.getElementById('name').value;
-            fetch('https://fapp-sf-02.azurewebsites.net/api/setlocation', {
+            fetch('/api/location', {
                 method: 'POST',
                 headers: {
                 'Accept': 'application/json, text/plain, */*',
